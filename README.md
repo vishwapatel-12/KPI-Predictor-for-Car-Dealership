@@ -6,11 +6,11 @@ It allows users to upload datasets, explore correlations, visualize trends, and 
 The tool is designed to help in decision-making by providing insights from raw data in a simple and visual manner.
 
 ##✨ Features:
-🔄 Data preprocessing and cleaning
-📈 Correlation analysis
-📊 Interactive data visualizations with Plotly
-⏳ Time series forecasting using Prophet
-🖥 Streamlit dashboard for easy interaction
+-🔄 Data preprocessing and cleaning
+-📈 Correlation analysis
+-📊 Interactive data visualizations with Plotly
+-⏳ Time series forecasting using Prophet
+-🖥 Streamlit dashboard for easy interaction
 
 
 ##🗂 Project Structure:
@@ -29,28 +29,28 @@ step 1:Create a virtual environment (recommended):
        python -m venv .venv
 
 step 2:Activate the environment:
-      . .venv\Scripts\Activate
+    -  . .venv\Scripts\Activate
 
 step 3: python -m pip install --upgrade pip
 
 step 4:Install dependencies:
-       pip install -r requirements.txt
+      - pip install -r requirements.txt
 
 step 5:Run the Streamlit app:
-       streamlit run app.py
+      -  streamlit run app.py
 
 step 6:Then open your browser and go to:
-       http://localhost:8501/
+      - http://localhost:8501/
 
 ##📦 Dependencies:
 The project uses the following Python libraries:
 
-numpy – Numerical operations
-pandas – Data manipulation and cleaning
-plotly – Interactive data visualizations
-prophet – Time-series forecasting
-streamlit – Web-based dashboard
-All dependencies are listed in requirements.txt
+-numpy – Numerical operations
+-pandas – Data manipulation and cleaning
+-plotly – Interactive data visualizations
+-prophet – Time-series forecasting
+-streamlit – Web-based dashboard
+-All dependencies are listed in requirements.txt
 
 ##📂 Data:
 Default demo file: `data/FS-data-80475.csv` with columns:
