@@ -1,0 +1,13 @@
+# Core libraries for data manipulation and numerical operations
+pandas
+numpy
+
+# Forecasting library
+prophet
+
+# Dashboard framework
+streamlit
+
+# Visualization library
+plotly
+openpyxl # For reading Excel files, as seen in data_prep.py
