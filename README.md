@@ -24,9 +24,13 @@ The codebase is organized into the following modules:
 ## Quick Start (Windows / VS Code)
  In powershell do following steps:
 step 1: python -m venv .venv
+
 step 2: . .venv\Scripts\Activate
+
 step 3: python -m pip install --upgrade pip
+
 step 4: pip install -r requirements.txt
+
 step 5: streamlit run app.py
 
 
