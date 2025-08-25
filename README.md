@@ -1,9 +1,9 @@
 
-##📊 KPI Predictor Dashboard:
+📊 KPI Predictor Dashboard:
 
 This project is an interactive data analysis and forecasting dashboard built with Streamlit.  It allows users to upload datasets, explore correlations, visualize trends, and perform time-series forecasting using Facebook Prophet.The tool is designed to help in decision-making by providing insights from raw data in a simple and visual manner.
 
-##✨ Features:
+✨ Features:
 
 - 🔄 Data preprocessing and cleaning
 - 📈 Correlation analysis
@@ -12,7 +12,7 @@ This project is an interactive data analysis and forecasting dashboard built wit
 - 🖥 Streamlit dashboard for easy interaction
 
 
-##🗂 Project Structure:
+🗂 Project Structure:
 The codebase is organized into the following modules:
 
 - app.py: The main script that runs the Streamlit web application, tying together all the other components     into an interactive dashboard.
@@ -22,7 +22,7 @@ The codebase is organized into the following modules:
 - visualization.py: Defines the functions for creating interactive line charts and heatmaps.
 
 
-##⚙️ Quick Start (Windows / VS Code):
+⚙️ Quick Start (Windows / VS Code):
 Open PowerShell/Terminal in your project folder and run the following commands step by step:
 step 1:Create a virtual environment (recommended):
        python -m venv .venv
@@ -47,7 +47,7 @@ step 6 - Then open your browser and go to:
 
        http://localhost:8501/
 
-##📦 Dependencies:
+📦 Dependencies:
 The project uses the following Python libraries:
 
 - numpy – Numerical operations
@@ -57,13 +57,13 @@ The project uses the following Python libraries:
 - streamlit – Web-based dashboard
 - All dependencies are listed in requirements.txt
 
-##📂 Data:
+📂 Data:
 
 Default demo file: `data/FS-data-80475.csv` with columns:
 `account_id, english_name, dealer_code, year, month, monthly_value, yearly_value`
 You can also upload a CSV/Excel from the sidebar.
 
-##📑 Outputs:
+📑 Outputs:
 
 - `outputs/cleaned.csv` – cleaned dataset after preprocessing
 - `outputs/forecast_3m.csv` – 3‑month forecasts
