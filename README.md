@@ -24,7 +24,10 @@ The codebase is organized into the following modules:
 _____________________________________________________________________________________________________________________________________________________________________________________________________________________
 ⚙️ Quick Start (Windows / VS Code):
 Open PowerShell/Terminal in your project folder and run the following commands step by step:
+
+
 step 1:Create a virtual environment (recommended):
+
        python -m venv .venv
 
 step 2 - Activate the environment:
